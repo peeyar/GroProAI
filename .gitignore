@@ -14,3 +14,7 @@ dist/
 
 # OS
 .DS_Store
+
+# The user-global gitignore excludes *.md; this project needs its docs
+# (glossary.md is loaded by the backend at runtime).
+!*.md
