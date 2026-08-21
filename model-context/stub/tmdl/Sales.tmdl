@@ -1,0 +1,86 @@
+/// Stub fact table shaped like GroPro: one row per item x customer x region x quarter.
+/// Measures below are stubs — real DAX definitions arrive with the pbix.
+table Sales
+
+	column 'Sales Key'
+		dataType: int64
+		isHidden
+		summarizeBy: none
+
+	column 'Item Number'
+		dataType: string
+		summarizeBy: none
+
+	column 'Customer Key'
+		dataType: int64
+		isHidden
+		summarizeBy: none
+
+	column 'Region Key'
+		dataType: int64
+		isHidden
+		summarizeBy: none
+
+	column 'BU Code'
+		dataType: string
+		summarizeBy: none
+
+	column Quarter
+		dataType: string
+		summarizeBy: none
+
+	column Revenue
+		dataType: double
+		formatString: $#,0
+		summarizeBy: sum
+
+	measure 'Revenue Current' = 0
+		formatString: $#,0
+
+	measure 'Revenue Prior Year' = 0
+		formatString: $#,0
+
+	measure 'Revenue Prior Quarter' = 0
+		formatString: $#,0
+
+	measure 'Total Revenue Change YoY' = 0
+		formatString: $#,0
+
+	measure 'Total Revenue Change SEQ' = 0
+		formatString: $#,0
+
+	measure 'Market YoY' = 0
+		formatString: $#,0
+
+	measure 'Market SEQ' = 0
+		formatString: $#,0
+
+	measure 'Market Mix YoY' = 0
+		formatString: $#,0
+
+	measure 'Market Mix SEQ' = 0
+		formatString: $#,0
+
+	measure 'Propulsion Mix YoY' = 0
+		formatString: $#,0
+
+	measure 'Propulsion Mix SEQ' = 0
+		formatString: $#,0
+
+	measure 'Content YoY' = 0
+		formatString: $#,0
+
+	measure 'Content SEQ' = 0
+		formatString: $#,0
+
+	measure 'Price YoY' = 0
+		formatString: $#,0
+
+	measure 'Price SEQ' = 0
+		formatString: $#,0
+
+	measure 'FX YoY' = 0
+		formatString: $#,0
+
+	measure 'FX SEQ' = 0
+		formatString: $#,0

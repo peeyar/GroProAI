@@ -1,0 +1,9 @@
+table 'Business Unit'
+
+	column 'BU Code'
+		dataType: string
+		summarizeBy: none
+
+	column 'BU Name'
+		dataType: string
+		summarizeBy: none

@@ -1,0 +1,24 @@
+{
+  "name": "bridge_seq",
+  "kind": "bridge",
+  "flavor": "seq",
+  "path": {},
+  "source": "stub",
+  "result": {
+    "tables": [
+      {
+        "rows": [
+          {
+            "[Market]": -3100000.0,
+            "[Market Mix]": 1900000.0,
+            "[Propulsion Mix]": -4400000.0,
+            "[Content]": 2600000.0,
+            "[Price]": -1800000.0,
+            "[FX]": -3600000.0,
+            "[Total]": -8400000.0
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "drill_bu_yoy",
+  "kind": "drill",
+  "flavor": "yoy",
+  "level": "bu",
+  "path": {},
+  "source": "stub",
+  "result": {
+    "tables": [
+      {
+        "rows": [
+          {
+            "Business Unit[BU Code]": "AUTO",
+            "[Market]": 12500000.0,
+            "[Market Mix]": -4000000.0,
+            "[Propulsion Mix]": -9800000.0,
+            "[Content]": 15200000.0,
+            "[Price]": 9100000.0,
+            "[FX]": 3800000.0,
+            "[Total]": 26800000.0
+          },
+          {
+            "Business Unit[BU Code]": "HVOR",
+            "[Market]": 5500000.0,
+            "[Market Mix]": -2500000.0,
+            "[Propulsion Mix]": -1400000.0,
+            "[Content]": 6200000.0,
+            "[Price]": 5500000.0,
+            "[FX]": 2200000.0,
+            "[Total]": 15500000.0
+          }
+        ]
+      }
+    ]
+  }
+}

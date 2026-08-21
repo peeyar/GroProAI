@@ -1,0 +1,30 @@
+{
+  "modelName": "GroPro (stub)",
+  "total": {
+    "label": "Total",
+    "yoy": "Total Revenue Change YoY",
+    "seq": "Total Revenue Change SEQ"
+  },
+  "buckets": [
+    { "key": "market", "label": "Market", "yoy": "Market YoY", "seq": "Market SEQ" },
+    { "key": "market_mix", "label": "Market Mix", "yoy": "Market Mix YoY", "seq": "Market Mix SEQ" },
+    { "key": "propulsion_mix", "label": "Propulsion Mix", "yoy": "Propulsion Mix YoY", "seq": "Propulsion Mix SEQ" },
+    { "key": "content", "label": "Content", "yoy": "Content YoY", "seq": "Content SEQ" },
+    { "key": "price", "label": "Price", "yoy": "Price YoY", "seq": "Price SEQ" },
+    { "key": "fx", "label": "FX", "yoy": "FX YoY", "seq": "FX SEQ" }
+  ],
+  "drillPath": [
+    { "level": "bu", "label": "Business Unit", "table": "Business Unit", "column": "BU Code" },
+    { "level": "customer", "label": "Customer", "table": "Customer", "column": "Customer Name" },
+    { "level": "product", "label": "Product Line", "table": "Product", "column": "Product Line" },
+    { "level": "item", "label": "Item", "table": "Product", "column": "Item Number" }
+  ],
+  "periods": {
+    "table": "Period",
+    "column": "Quarter",
+    "current": "2026-Q2",
+    "priorYear": "2025-Q2",
+    "priorQuarter": "2026-Q1"
+  },
+  "drillRowCap": 500
+}

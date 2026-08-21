@@ -1,0 +1,76 @@
+{
+  "name": "drill_item_yoy",
+  "kind": "drill",
+  "flavor": "yoy",
+  "level": "item",
+  "path": { "bu": "AUTO", "customer": "Volkswagen", "product": "Battery Housings" },
+  "source": "stub",
+  "result": {
+    "tables": [
+      {
+        "rows": [
+          {
+            "Product[Item Number]": "BH-1001",
+            "[Market]": 500000.0,
+            "[Market Mix]": -100000.0,
+            "[Propulsion Mix]": -200000.0,
+            "[Content]": 600000.0,
+            "[Price]": 300000.0,
+            "[FX]": 100000.0,
+            "[Total]": 1200000.0
+          },
+          {
+            "Product[Item Number]": "BH-1002",
+            "[Market]": 400000.0,
+            "[Market Mix]": -100000.0,
+            "[Propulsion Mix]": -200000.0,
+            "[Content]": 500000.0,
+            "[Price]": 200000.0,
+            "[FX]": 100000.0,
+            "[Total]": 900000.0
+          },
+          {
+            "Product[Item Number]": "BH-1003",
+            "[Market]": 300000.0,
+            "[Market Mix]": -100000.0,
+            "[Propulsion Mix]": -100000.0,
+            "[Content]": 400000.0,
+            "[Price]": 100000.0,
+            "[FX]": 100000.0,
+            "[Total]": 700000.0
+          },
+          {
+            "Product[Item Number]": "BH-1004",
+            "[Market]": 200000.0,
+            "[Market Mix]": 100000.0,
+            "[Propulsion Mix]": -100000.0,
+            "[Content]": 300000.0,
+            "[Price]": 100000.0,
+            "[FX]": 0.0,
+            "[Total]": 600000.0
+          },
+          {
+            "Product[Item Number]": "BH-1005",
+            "[Market]": 100000.0,
+            "[Market Mix]": -100000.0,
+            "[Propulsion Mix]": -100000.0,
+            "[Content]": 300000.0,
+            "[Price]": 200000.0,
+            "[FX]": 0.0,
+            "[Total]": 400000.0
+          },
+          {
+            "Product[Item Number]": "BH-1006",
+            "[Market]": 100000.0,
+            "[Market Mix]": -100000.0,
+            "[Propulsion Mix]": -200000.0,
+            "[Content]": 300000.0,
+            "[Price]": 100000.0,
+            "[FX]": 100000.0,
+            "[Total]": 300000.0
+          }
+        ]
+      }
+    ]
+  }
+}

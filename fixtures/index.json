@@ -1,0 +1,40 @@
+{
+  "generatedBy": "scripts/onboard_model.py",
+  "fixtures": [
+    {
+      "name": "bridge_seq",
+      "file": "bridge_seq.json",
+      "dax": "EVALUATE\nCALCULATETABLE (\n    ROW (\n        \"Market\", [Market SEQ],\n        \"Market Mix\", [Market Mix SEQ],\n        \"Propulsion Mix\", [Propulsion Mix SEQ],\n        \"Content\", [Content SEQ],\n        \"Price\", [Price SEQ],\n        \"FX\", [FX SEQ],\n        \"Total\", [Total Revenue Change SEQ]\n    ),\n    'Period'[Quarter] = \"2026-Q2\"\n)\n"
+    },
+    {
+      "name": "bridge_yoy",
+      "file": "bridge_yoy.json",
+      "dax": "EVALUATE\nCALCULATETABLE (\n    ROW (\n        \"Market\", [Market YoY],\n        \"Market Mix\", [Market Mix YoY],\n        \"Propulsion Mix\", [Propulsion Mix YoY],\n        \"Content\", [Content YoY],\n        \"Price\", [Price YoY],\n        \"FX\", [FX YoY],\n        \"Total\", [Total Revenue Change YoY]\n    ),\n    'Period'[Quarter] = \"2026-Q2\"\n)\n"
+    },
+    {
+      "name": "drill_bu_yoy",
+      "file": "drill_bu_yoy.json",
+      "dax": "EVALUATE\nTOPN (\n    500,\n    SUMMARIZECOLUMNS (\n        'Business Unit'[BU Code],\n        TREATAS ( { \"2026-Q2\" }, 'Period'[Quarter] ),\n        \"Market\", [Market YoY],\n        \"Market Mix\", [Market Mix YoY],\n        \"Propulsion Mix\", [Propulsion Mix YoY],\n        \"Content\", [Content YoY],\n        \"Price\", [Price YoY],\n        \"FX\", [FX YoY],\n        \"Total\", [Total Revenue Change YoY]\n    ),\n    [Total], DESC\n)\n"
+    },
+    {
+      "name": "drill_customer_hvor_yoy",
+      "file": "drill_customer_hvor_yoy.json",
+      "dax": "EVALUATE\nTOPN (\n    500,\n    SUMMARIZECOLUMNS (\n        'Customer'[Customer Name],\n        TREATAS ( { \"2026-Q2\" }, 'Period'[Quarter] ),\n        TREATAS ( { \"HVOR\" }, 'Business Unit'[BU Code] ),\n        \"Market\", [Market YoY],\n        \"Market Mix\", [Market Mix YoY],\n        \"Propulsion Mix\", [Propulsion Mix YoY],\n        \"Content\", [Content YoY],\n        \"Price\", [Price YoY],\n        \"FX\", [FX YoY],\n        \"Total\", [Total Revenue Change YoY]\n    ),\n    [Total], DESC\n)\n"
+    },
+    {
+      "name": "drill_customer_yoy",
+      "file": "drill_customer_yoy.json",
+      "dax": "EVALUATE\nTOPN (\n    500,\n    SUMMARIZECOLUMNS (\n        'Customer'[Customer Name],\n        TREATAS ( { \"2026-Q2\" }, 'Period'[Quarter] ),\n        TREATAS ( { \"AUTO\" }, 'Business Unit'[BU Code] ),\n        \"Market\", [Market YoY],\n        \"Market Mix\", [Market Mix YoY],\n        \"Propulsion Mix\", [Propulsion Mix YoY],\n        \"Content\", [Content YoY],\n        \"Price\", [Price YoY],\n        \"FX\", [FX YoY],\n        \"Total\", [Total Revenue Change YoY]\n    ),\n    [Total], DESC\n)\n"
+    },
+    {
+      "name": "drill_item_yoy",
+      "file": "drill_item_yoy.json",
+      "dax": "EVALUATE\nTOPN (\n    500,\n    SUMMARIZECOLUMNS (\n        'Product'[Item Number],\n        TREATAS ( { \"2026-Q2\" }, 'Period'[Quarter] ),\n        TREATAS ( { \"AUTO\" }, 'Business Unit'[BU Code] ),\n        TREATAS ( { \"Volkswagen\" }, 'Customer'[Customer Name] ),\n        TREATAS ( { \"Battery Housings\" }, 'Product'[Product Line] ),\n        \"Market\", [Market YoY],\n        \"Market Mix\", [Market Mix YoY],\n        \"Propulsion Mix\", [Propulsion Mix YoY],\n        \"Content\", [Content YoY],\n        \"Price\", [Price YoY],\n        \"FX\", [FX YoY],\n        \"Total\", [Total Revenue Change YoY]\n    ),\n    [Total], DESC\n)\n"
+    },
+    {
+      "name": "drill_product_yoy",
+      "file": "drill_product_yoy.json",
+      "dax": "EVALUATE\nTOPN (\n    500,\n    SUMMARIZECOLUMNS (\n        'Product'[Product Line],\n        TREATAS ( { \"2026-Q2\" }, 'Period'[Quarter] ),\n        TREATAS ( { \"AUTO\" }, 'Business Unit'[BU Code] ),\n        TREATAS ( { \"Volkswagen\" }, 'Customer'[Customer Name] ),\n        \"Market\", [Market YoY],\n        \"Market Mix\", [Market Mix YoY],\n        \"Propulsion Mix\", [Propulsion Mix YoY],\n        \"Content\", [Content YoY],\n        \"Price\", [Price YoY],\n        \"FX\", [FX YoY],\n        \"Total\", [Total Revenue Change YoY]\n    ),\n    [Total], DESC\n)\n"
+    }
+  ]
+}

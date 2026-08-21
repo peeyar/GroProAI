@@ -1,0 +1,13 @@
+table Product
+
+	column 'Item Number'
+		dataType: string
+		summarizeBy: none
+
+	column 'Item Description'
+		dataType: string
+		summarizeBy: none
+
+	column 'Product Line'
+		dataType: string
+		summarizeBy: none

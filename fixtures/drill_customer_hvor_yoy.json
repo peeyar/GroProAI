@@ -1,0 +1,56 @@
+{
+  "name": "drill_customer_hvor_yoy",
+  "kind": "drill",
+  "flavor": "yoy",
+  "level": "customer",
+  "path": { "bu": "HVOR" },
+  "source": "stub",
+  "result": {
+    "tables": [
+      {
+        "rows": [
+          {
+            "Customer[Customer Name]": "Daimler Truck",
+            "[Market]": 2200000.0,
+            "[Market Mix]": -1000000.0,
+            "[Propulsion Mix]": -600000.0,
+            "[Content]": 2500000.0,
+            "[Price]": 2200000.0,
+            "[FX]": 900000.0,
+            "[Total]": 6200000.0
+          },
+          {
+            "Customer[Customer Name]": "Volvo Trucks",
+            "[Market]": 1500000.0,
+            "[Market Mix]": -700000.0,
+            "[Propulsion Mix]": -400000.0,
+            "[Content]": 1700000.0,
+            "[Price]": 1400000.0,
+            "[FX]": 600000.0,
+            "[Total]": 4100000.0
+          },
+          {
+            "Customer[Customer Name]": "PACCAR",
+            "[Market]": 1100000.0,
+            "[Market Mix]": -500000.0,
+            "[Propulsion Mix]": -200000.0,
+            "[Content]": 1200000.0,
+            "[Price]": 1100000.0,
+            "[FX]": 300000.0,
+            "[Total]": 3000000.0
+          },
+          {
+            "Customer[Customer Name]": "John Deere",
+            "[Market]": 700000.0,
+            "[Market Mix]": -300000.0,
+            "[Propulsion Mix]": -200000.0,
+            "[Content]": 800000.0,
+            "[Price]": 800000.0,
+            "[FX]": 400000.0,
+            "[Total]": 2200000.0
+          }
+        ]
+      }
+    ]
+  }
+}

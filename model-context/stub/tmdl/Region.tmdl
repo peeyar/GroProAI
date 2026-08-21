@@ -1,0 +1,10 @@
+table Region
+
+	column 'Region Key'
+		dataType: int64
+		isHidden
+		summarizeBy: none
+
+	column Region
+		dataType: string
+		summarizeBy: none

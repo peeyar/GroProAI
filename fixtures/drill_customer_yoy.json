@@ -1,0 +1,66 @@
+{
+  "name": "drill_customer_yoy",
+  "kind": "drill",
+  "flavor": "yoy",
+  "level": "customer",
+  "path": { "bu": "AUTO" },
+  "source": "stub",
+  "result": {
+    "tables": [
+      {
+        "rows": [
+          {
+            "Customer[Customer Name]": "Volkswagen",
+            "[Market]": 4200000.0,
+            "[Market Mix]": -1500000.0,
+            "[Propulsion Mix]": -3600000.0,
+            "[Content]": 5800000.0,
+            "[Price]": 3100000.0,
+            "[FX]": 1400000.0,
+            "[Total]": 9400000.0
+          },
+          {
+            "Customer[Customer Name]": "Stellantis",
+            "[Market]": 2900000.0,
+            "[Market Mix]": -1000000.0,
+            "[Propulsion Mix]": -2400000.0,
+            "[Content]": 3700000.0,
+            "[Price]": 2200000.0,
+            "[FX]": 700000.0,
+            "[Total]": 6100000.0
+          },
+          {
+            "Customer[Customer Name]": "Ford",
+            "[Market]": 2400000.0,
+            "[Market Mix]": -800000.0,
+            "[Propulsion Mix]": -1900000.0,
+            "[Content]": 2900000.0,
+            "[Price]": 1600000.0,
+            "[FX]": 800000.0,
+            "[Total]": 5000000.0
+          },
+          {
+            "Customer[Customer Name]": "GM",
+            "[Market]": 1800000.0,
+            "[Market Mix]": -500000.0,
+            "[Propulsion Mix]": -1200000.0,
+            "[Content]": 1700000.0,
+            "[Price]": 1400000.0,
+            "[FX]": 600000.0,
+            "[Total]": 3800000.0
+          },
+          {
+            "Customer[Customer Name]": "BMW",
+            "[Market]": 1200000.0,
+            "[Market Mix]": -200000.0,
+            "[Propulsion Mix]": -700000.0,
+            "[Content]": 1100000.0,
+            "[Price]": 800000.0,
+            "[FX]": 300000.0,
+            "[Total]": 2500000.0
+          }
+        ]
+      }
+    ]
+  }
+}

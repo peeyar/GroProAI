@@ -1,0 +1,24 @@
+{
+  "name": "bridge_yoy",
+  "kind": "bridge",
+  "flavor": "yoy",
+  "path": {},
+  "source": "stub",
+  "result": {
+    "tables": [
+      {
+        "rows": [
+          {
+            "[Market]": 18000000.0,
+            "[Market Mix]": -6500000.0,
+            "[Propulsion Mix]": -11200000.0,
+            "[Content]": 21400000.0,
+            "[Price]": 14600000.0,
+            "[FX]": 6000000.0,
+            "[Total]": 42300000.0
+          }
+        ]
+      }
+    ]
+  }
+}

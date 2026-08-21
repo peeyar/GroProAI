@@ -1,0 +1,56 @@
+{
+  "name": "drill_product_yoy",
+  "kind": "drill",
+  "flavor": "yoy",
+  "level": "product",
+  "path": { "bu": "AUTO", "customer": "Volkswagen" },
+  "source": "stub",
+  "result": {
+    "tables": [
+      {
+        "rows": [
+          {
+            "Product[Product Line]": "Battery Housings",
+            "[Market]": 1600000.0,
+            "[Market Mix]": -400000.0,
+            "[Propulsion Mix]": -900000.0,
+            "[Content]": 2400000.0,
+            "[Price]": 1000000.0,
+            "[FX]": 400000.0,
+            "[Total]": 4100000.0
+          },
+          {
+            "Product[Product Line]": "Seat Structures",
+            "[Market]": 1200000.0,
+            "[Market Mix]": -500000.0,
+            "[Propulsion Mix]": -1100000.0,
+            "[Content]": 1600000.0,
+            "[Price]": 1000000.0,
+            "[FX]": 400000.0,
+            "[Total]": 2600000.0
+          },
+          {
+            "Product[Product Line]": "Door Modules",
+            "[Market]": 900000.0,
+            "[Market Mix]": -400000.0,
+            "[Propulsion Mix]": -900000.0,
+            "[Content]": 1200000.0,
+            "[Price]": 700000.0,
+            "[FX]": 300000.0,
+            "[Total]": 1800000.0
+          },
+          {
+            "Product[Product Line]": "Chassis Brackets",
+            "[Market]": 500000.0,
+            "[Market Mix]": -200000.0,
+            "[Propulsion Mix]": -700000.0,
+            "[Content]": 600000.0,
+            "[Price]": 400000.0,
+            "[FX]": 300000.0,
+            "[Total]": 900000.0
+          }
+        ]
+      }
+    ]
+  }
+}
